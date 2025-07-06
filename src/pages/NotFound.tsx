@@ -15,7 +15,7 @@ const NotFound = () => {
 
         <div className="space-y-4">
           <Link
-            to="/"
+            to="/Idan-Gonen-Portfolio/"
             className="inline-block bg-secondary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors duration-200 font-medium"
           >
             Go Back Home
