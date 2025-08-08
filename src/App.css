@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary: #eff1f3;
+    --color-secondary: #c5832B; 
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Ensure text doesn't overflow on mobile */
+  p, h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Prevent horizontal scrolling */
+  * {
+    max-width: 100%;
+  }
+}
