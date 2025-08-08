@@ -7,9 +7,10 @@ const Intro = () => {
         <img
           src={profile}
           alt="Idan Gonen"
-          className="rounded-3xl w-48 h-48 md:w-64 md:h-64 object-cover"
+          className="rounded-3xl w-48 h-48 md:w-64 md:h-64 object-contain"
           width={250}
           height={250}
+          loading="lazy"
         />
       </div>
       <div className="text-center md:text-left">
